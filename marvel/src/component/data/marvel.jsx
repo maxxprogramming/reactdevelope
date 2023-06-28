@@ -25,7 +25,9 @@ function MarvelData() {
   }, [dataMarvel]);
 
   return (
+    
     <div>
+   
       <RenderHtml data={dataMarvel} />
     </div>
   );

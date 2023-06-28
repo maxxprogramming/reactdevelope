@@ -36,3 +36,49 @@
     transform: rotate(360deg);
   }
 }
+
+
+.series{
+  display: flex;
+  flex-direction: column;
+  
+ 
+}
+
+img {
+  width: 400px;
+  border-radius: 30px;
+  
+}
+
+.container {
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: 30%;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+.container_series{
+  display: flex;
+  width: 50%;
+}
+
+.container_events {
+  display: flex;
+  width: 30%;
+
+}
+
+
+body{
+  background-color: #282c34;
+  color: white;
+
+  
+}
+
+
+
