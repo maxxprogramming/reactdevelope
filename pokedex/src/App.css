@@ -1,0 +1,306 @@
+body{
+  background-image: url('https://cdn2.tfx.company/images/clickwallpapers-pokemon-4k-img13.jpg');
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+
+}
+
+.card img {
+  width: 50%;
+  margin-left: 25%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.card div {
+  margin-bottom: 5px;
+}
+
+
+.input-searcher {
+  width: 20%;
+  height: 10%;
+  margin-top: 20%;
+  margin-left:40%;
+  margin-bottom: 3%;
+  margin-right: auto;
+}
+
+
+
+.normal {
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  border: solid  2px  rgba(255, 0, 251, 0.6);
+  color: white;
+}
+
+.bug {
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  border: solid  12px  rgba(23, 0, 199, 0.6);
+  color: white;
+}
+.water {
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  border: solid  2px  rgba(0, 162, 255, 0.6);
+  color: white;
+}
+
+.fire {
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  border: solid  2px rgba(255, 128, 0, 0.6);
+  color: white;
+}
+
+.grass {
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  border: solid  2px rgba(0, 245, 98, 0.6);
+  color: white;
+}
+
+.electric {
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  border: solid  2px yellow ;
+}
+
+
+
+
+.flying {
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  border: solid  2px white ;
+}
+
+.fighting {
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  border: solid  2px red ;
+}
+
+.poison {
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  border: solid  2px greenyellow ;
+}
+
+
+
+.ground {
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  border: solid  2px maroon ;
+}
+
+.rock {
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  border: solid  2px gainsboro ;
+}
+
+.psychic {
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  border: solid  2px papayawhip ;
+}
+
+.ice {
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  border: solid  2px blue ;
+}
+
+
+
+
+
+.steel {
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  border: solid  2px steelblue ;
+}
+
+.dragon {
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  border: solid  2px red ;
+}
+
+.dark {
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  border: solid  2px darkcyan ;
+}
+
+.fairy {
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  border: solid  2px rgb(230, 0, 46) ;
+}
+
+
+
+
+
+
+
+
+
+
+
+.form__group {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.form__field {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 1.3rem;
+  color: #fff;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+
+  &::placeholder {
+    color: #11998e;
+  }
+
+  &:placeholder-shown ~ .form__label {
+    font-size: 1.3rem;
+    cursor: text;
+    top: 20px;
+  }
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #9b9b9b;
+}
+
+.form__field:focus {
+  ~ .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #11998e;
+    font-weight:700;    
+  }
+  padding-bottom: 6px;  
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #f84b01,#fbff00);
+  border-image-slice: 1;
+}
+/* reset input */
+.form__field{
+  &:required,&:invalid { box-shadow:none; }
+}
+
+
+.button-search {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25%;
+  margin-top:  -5%;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: #11998e;
+  border-radius: 20px;
+}
+
+.error-notfound {
+  color: white;
+  margin-left: 40%;
+  margin-right: auto;
+  font-size: 20px;
+}
